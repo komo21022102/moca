@@ -1,0 +1,66 @@
+body {
+    background-color: #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.warp{
+
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.Logo-area{    
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.column-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1{
+    width: 40%;
+    aspect-ratio: 1/1;
+    justify-items: center;
+    align-items: center;
+    margin: 2%;
+    background-image: url(Source/Attraction-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#Rive_001 {
+    width: 100%;
+}
+
+.Pending{
+    width: 40%;
+    aspect-ratio: 1/1;
+    justify-items: center;
+    align-items: center;
+    margin: 2%;
+    background-image: url(Source/Attraction-Pending.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
