@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moca_playground</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="Logo-area">
+      <!-- <div class="logo">
+        <img src="Source/Logo.png" id="logo">
+      </div> -->
+    </div>
+    <div class="warp">
+      <div class="column-1">
+        <div class="card-1">
+            <canvas id="Rive_001" width="500" height="500"></canvas>
+        </div>
+        
+        <!-- <div class="Pending">  
+        </div>  -->
+
+        </div>
+
+    </div>
+
+<script src="https://unpkg.com/rive-js"></script>
+<script src="https://unpkg.com/@rive-app/canvas@2.17.3"></script>
+<script>
+ const card = document.querySelector("div.card-1")
+
+const r = new rive.Rive({
+    src: "moca.riv",
+    canvas: document.getElementById("Rive_001"),
+    autoplay: true,
+    stateMachines: "idel",
+        onLoad: () => {
+          r.resizeDrawingSurfaceToCanvas();
+        },
+    });
+
+
+</script>
+</body>
+</html>
